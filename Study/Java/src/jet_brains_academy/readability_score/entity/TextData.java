@@ -3,7 +3,7 @@ package jet_brains_academy.readability_score.entity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Storage {
+public class TextData {
 
     private String text;
     private List<String> words;
@@ -12,7 +12,7 @@ public class Storage {
     private int polysyllables;
     private int characters;
 
-    public Storage(List<String> lines) {
+    public TextData(List<String> lines) {
 
         StringBuilder sb = new StringBuilder();
         for (String line : lines) {

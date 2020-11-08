@@ -1,13 +1,12 @@
 package jet_brains_academy.readability_score.utils;
 
 import jet_brains_academy.readability_score.entity.TextData;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class CounterUnits {
+public class ParserUtil {
 
     public static TextData parse(List<String> lines) {
 
