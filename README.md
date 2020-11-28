@@ -1,2 +1,2 @@
 # Study
-This repo contains my educational projects
+This repo contains my study projects
